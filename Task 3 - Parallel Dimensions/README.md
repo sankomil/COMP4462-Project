@@ -1,33 +1,8 @@
-# Parallel Dimension visualisation
+# Feature Analysis
 
-https://observablehq.com/d/6aec17920ae9d4e3@38
+This task focuses on analyzing the trend of these popular music over the years. Parallel Coordinates Plot will be used for this task. We will differentiate these songs with colors according to their year of released. Using our dataset, there’re 10 features like its beats, loudness and energy.  And each feature of the music would be a separate dimension in the plot. The parallel coordinates plot allows to compare the features of these individual observations.
 
-View this notebook in your browser by running a web server in this folder. For
-example:
+If you wish to view the code and the results in your browser, please click the following link:
 
-~~~sh
-python -m SimpleHTTPServer
-~~~
+https://observablehq.com/@sankomil/parallel-dimension-visualisation
 
-Or, use the [Observable Runtime](https://github.com/observablehq/runtime) to
-import this module directly into your application. To npm install:
-
-~~~sh
-npm install @observablehq/runtime@4
-npm install https://api.observablehq.com/d/6aec17920ae9d4e3.tgz?v=3
-~~~
-
-Then, import your notebook and the runtime as:
-
-~~~js
-import {Runtime, Inspector} from "@observablehq/runtime";
-import define from "6aec17920ae9d4e3";
-~~~
-
-To log the value of the cell named “foo”:
-
-~~~js
-const runtime = new Runtime();
-const main = runtime.module(define);
-main.value("foo").then(value => console.log(value));
-~~~

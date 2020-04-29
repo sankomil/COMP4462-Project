@@ -1,6 +1,6 @@
 # COMP4462-Project: Visualisations of Song Features
 
-This project is part of the COMP4462 course offered at HKUST during Sprin 19-20. The aim of this project is to find what influences 
+This project is part of the COMP4462 course offered at HKUST during Spring 19-20. The aim of this project is to find what influences 
 our choices in music, especially the specific features and their values. 
 
 To represent this, we have made use of three separate visualisations, each serving a different purpose. Each of these visualisation,

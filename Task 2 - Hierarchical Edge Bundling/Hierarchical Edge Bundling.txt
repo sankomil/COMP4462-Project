@@ -1,5 +1,2 @@
-# First edge bundling
-  https://observablehq.com/@sankomil/hierarchical-edge-bundling
-  
-# Second edge bundling (improved)
+Hierarchical edge bundling (improved)
   https://observablehq.com/@sankomil/hierarchical-edge-bundling/2

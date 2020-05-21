@@ -1,0 +1,14 @@
+{
+  "name": "@sankomil/hierarchical-edge-bundling/2",
+  "main": "f93e350cd3644ba0@723.js",
+  "version": "723.0.0",
+  "homepage": "https://observablehq.com/@sankomil/hierarchical-edge-bundling/2",
+  "author": {
+    "name": "sankomil",
+    "url": "https://observablehq.com/@sankomil"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

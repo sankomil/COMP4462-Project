@@ -1,0 +1,26 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Unknown </title></head><body>
+<h1 id="hierarchical-edge-bundling">Hierarchical Edge Bundling</h1>
+<p>https://observablehq.com/@sankomil/hierarchical-edge-bundling/2@723</p>
+<p>View this notebook in your browser by running a web server in this folder. For
+example:</p>
+<p>~~~sh
+python -m SimpleHTTPServer
+~~~</p>
+<p>Or, use the <a href="https://github.com/observablehq/runtime">Observable Runtime</a> to
+import this module directly into your application. To npm install:</p>
+<p>~~~sh
+npm install @observablehq/runtime@4
+npm install https://api.observablehq.com/d/f93e350cd3644ba0.tgz?v=3
+~~~</p>
+<p>Then, import your notebook and the runtime as:</p>
+<p>~~~js
+import {Runtime, Inspector} from "@observablehq/runtime";
+import define from "@sankomil/hierarchical-edge-bundling/2";
+~~~</p>
+<p>To log the value of the cell named “foo”:</p>
+<p>~~~js
+const runtime = new Runtime();
+const main = runtime.module(define);
+main.value("foo").then(value =&gt; console.log(value));
+~~~</p>
+</body></html>

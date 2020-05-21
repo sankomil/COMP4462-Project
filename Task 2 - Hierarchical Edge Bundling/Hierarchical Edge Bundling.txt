@@ -1,2 +1,2 @@
-Hierarchical edge bundling (improved)
+Hierarchical edge bundling 
   https://observablehq.com/@sankomil/hierarchical-edge-bundling/2
